@@ -10,10 +10,8 @@ class Solution:
                 idxList.append(i)
                 vowelReplacement.append(s[i])
         idxList.reverse()
-        #vowelReplacement.reverse()
         for i in range(0, len(idxList)):
-            s[idxList[i]] = vowelReplacement[i]
-        
+            s[idxList[i]] = vowelReplacement[i]    
         return "".join(s)
         
 # Driver code
